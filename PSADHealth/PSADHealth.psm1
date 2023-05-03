@@ -1522,4 +1522,4 @@ function Test-SysvolReplication {
         }#End if
     }#End End
 }
-$PublicFunctions = 'Copy-Scripts', 'Get-ADConfig', 'Get-ADLastBackupDate', 'Get-DCDiskSpace', 'Restore-PSADHealthConfig', 'Set-PSADHealthConfig', 'Test-ADConfigMailer', 'Test-ADObjectReplication', 'Test-ADReplication', 'Test-ADServices', 'Test-DCsOnline', 'Test-ExternalDNSServers', 'Test-ExternalTimeSync', 'Test-InternalTimeSync', 'Test-SRVRecords', 'Test-SYSVOL-Replication'
+$PublicFunctions = 'Copy-Scripts', 'Get-ADConfig', 'Get-ADLastBackupDate', 'Get-DCDiskSpace', 'Restore-PSADHealthConfig', 'Set-PSADHealthConfig', 'Test-ADConfigMailer', 'Test-ADObjectReplication', 'Test-ADReplication', 'Test-ADServices', 'Test-DCsOnline', 'Test-ExternalDNSServers', 'Test-ADExternalTimeSync', 'Test-ADInternalTimeSync', 'Test-SRVRecords', 'Test-SYSVOL-Replication'
